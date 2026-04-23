@@ -48,4 +48,14 @@ end)
 
 ```
 
+Inside the data where the comment is (-- your objects here) is where the objects are going to be placed.
+
+You Have (3) ways:
+
+1. Use modified spooni spooner that we provide and when placing getting the objectloader data as shown below in the screenshot.
+
+2. Use normal spooni spooner and manually take each placed object data (model, x,y,z,pitch,roll,yaw)
+
+3. Create a ymap if its easier for you to do it. 
+
 # Development API
