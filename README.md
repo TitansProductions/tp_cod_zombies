@@ -52,7 +52,8 @@ Inside the data where the comment is (-- your objects here) is where the objects
 
 You Have (3) ways:
 
-1. Use modified spooni spooner that we provide and when placing getting the objectloader data as shown below in the screenshot.
+1. Use modified spooni spooner that we provide and when placing getting the objectloader data as shown below in the screenshot (it will print on f8 the placed object, objectloader data to copy and laste automatically).
+
 
 2. Use normal spooni spooner and manually take each placed object data (model, x,y,z,pitch,roll,yaw)
 
