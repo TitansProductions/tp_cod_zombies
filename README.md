@@ -6,8 +6,10 @@ Lets start from basics, to create a new map, you need an area, not small but sim
 
 Next, in that map, you have to design it, where the barriers are going to be, the vending machines, mystery boxes, doors (blockways) and all that which are highly required to have a good and interesting map. 
 
-Once you design it and you dont have knowledge about ymaps and xmls, in that script we provide you a map builder which is called **object loader**. The object loader purpose is to avoid ymaps and xmls and create the desired areas from a configuration file. 
+Once you design it and you dont have knowledge about ymaps and xmls, in that script we provide you a map builder which is called **object loader**. The object loader purpose is to avoid ymaps and xmls and create the desired areas from a configuration 
 
-- we personally use spooni-spooner of our version for 
+__How to use objectloader:__
+
+By default, on the `config/map_builder` you will find the **valentine** map which is an example.  All the objects firstly placed through spooni spooner script ( we personally use spooni-spooner of our version - modified) and then, we are getting the placed object data (model, x,y,z,pitch,roll,yaw) and we add them on the new map configuration file. 
 
 # Development API
