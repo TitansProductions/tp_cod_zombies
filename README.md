@@ -63,7 +63,7 @@ __How to use polyzone and why is it required?__
 
 The reason for the polyzone requirement is because we want to prevent players to abuse the game and find way outs from the map. By having a zone, we will force the player to stay only inside that zone and once player attempts to go somewhere else, it wont be possible. 
 
-*Keep in mind, the shape of the zone must be the one that players will be allowed to play inside, so dont make the zone bigger or not having any shape / design shape, because players will be getting out (for example, because barriers are open, we dont want them to get out of those barriers). 
+*Keep in mind, the shape of the zone must be the one that players will be allowed to play inside, so dont make the zone bigger or not having any shape / design shape, because players will be getting out (for example, because barriers are open, we dont want them to get out of those barriers). *
 
 Lets start making the map zone properly,
 
