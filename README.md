@@ -12,4 +12,6 @@ __How to use objectloader:__
 
 By default, on the `config/map_builder` you will find the **valentine** map which is an example.  All the objects firstly placed through spooni spooner script ( we personally use spooni-spooner of our version - modified) and then, we are getting the placed object data (model, x,y,z,pitch,roll,yaw) and we add them on the new map configuration file. 
 
+Ofcourse, since you are making a new map, copy template.lua file, copy and paste it and rename it to the new map name, then, inside is where you are going to place all objects. 
+
 # Development API
