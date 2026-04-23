@@ -10,8 +10,42 @@ Once you design it and you dont have knowledge about ymaps and xmls, in that scr
 
 __How to use objectloader:__
 
-By default, on the `config/map_builder` you will find the **valentine** map which is an example.  All the objects firstly placed through spooni spooner script ( we personally use spooni-spooner of our version - modified) and then, we are getting the placed object data (model, x,y,z,pitch,roll,yaw) and we add them on the new map configuration file. 
+By default, on the `config/map_creator` you will find the **valentine** map which is an example.  All the objects firstly placed through spooni spooner script ( we personally use spooni-spooner of our version - modified) and then, we are getting the placed object data (model, x,y,z,pitch,roll,yaw) and we add them on the new map configuration file. 
 
-Ofcourse, since you are making a new map, copy template.lua file, copy and paste it and rename it to the new map name, then, inside is where you are going to place all objects. 
+Ofcourse, since you are making a new map, select template.lua file, copy and paste it and rename it to the new map name, then, inside is where you are going to place all objects. 
+
+1. Go to `config/map_creator` directory folder.
+2. Copy `template.lua` file.
+3. Paste and rename it to the new map name (ex: rhodes.lua)
+4. Open `rhodes.lua` and its going to be similar as this:
+
+```lua
+---------------------------------------------------------------
+--[[ Functions ]]--
+---------------------------------------------------------------
+
+-- (!) DO NOT RENAME THE `data` variable, it must always be as `data`.
+-- Checkout the examples below how we create objects to the specified locations.
+
+local data = { 
+    -- your objects here
+}
+--------------------------------------------------------------
+--[[ DO NOT TOUCH ]]--
+---------------------------------------------------------------
+
+Citizen.CreateThread(function()
+    local objCount = 0
+    for _, v in pairs (data) do
+        objCount = objCount + 1
+        InsertObjectData(v)
+    end
+
+    if Config.Debug then
+ ------
+    end
+end)
+
+```
 
 # Development API
